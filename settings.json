@@ -47,6 +47,9 @@
     "workbench.colorCustomizations": {
         "[Community Material Theme Darker]": {
             "statusBar.debuggingBackground": "#212121",
+            // Make sure that the ".vimrc" has
+            // `set background=dark`
+            // for the following colors to look good.
             "terminal.background": "#212121",
             "terminal.selectionBackground": "#101010",
             "terminalCursor.foreground": "#FFFFFF",
