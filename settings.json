@@ -40,6 +40,8 @@
     "editor.multiCursorModifier": "ctrlCmd",
     // Do not collapse folders with only one folder
     "explorer.compactFolders": false,
+    // Add new line at the end when saving
+    "files.insertFinalNewline": true,
     /*******
      * Theme
      *******/
