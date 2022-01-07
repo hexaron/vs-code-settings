@@ -44,6 +44,10 @@
     "files.insertFinalNewline": true,
     // Delete trailing white space when saving
     "files.trimTrailingWhitespace": true,
+    "[python]": {
+        // PEP 8 maximum line length
+        "editor.rulers": [79],
+    },
     /*******
      * Theme
      *******/
