@@ -6,6 +6,7 @@
 			"    $BLOCK_COMMENT_START",
 			"    Should $2",
 			"    $BLOCK_COMMENT_END",
+			"    ",
 			"    # Arrange",
 			"    $4",
 			"    # Act",
