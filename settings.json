@@ -48,6 +48,9 @@
         // PEP 8 maximum line length
         "editor.rulers": [79],
     },
+    // Dont restore terminal sessions
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "terminal.integrated.enablePersistentSessions": false,
     /*******
      * Theme
      *******/
