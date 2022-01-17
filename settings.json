@@ -91,7 +91,8 @@
         "domain": "rules",
         "entities": "class",
         "presentation": "layout",
-        "bloc": "controller"
+        "bloc": "controller",
+        "fixtures": "config"
     },
     "material-icon-theme.files.associations": {
         ".gitkeep": "template"
