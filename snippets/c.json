@@ -1,0 +1,16 @@
+{
+	"Header include guard": {
+		"prefix": "include",
+		"body": [
+			"#ifndef ${TM_FILENAME_BASE/(.*)/${1:/upcase}/}_H",
+			"#define ${TM_FILENAME_BASE/(.*)/${1:/upcase}/}_H",
+			"",
+			"",
+			"$0",
+			"",
+			"",
+			"#endif /* ${TM_FILENAME_BASE/(.*)/${1:/upcase}/}_H */"
+		],
+		"description": "Add a C header include guard"
+	}
+}
