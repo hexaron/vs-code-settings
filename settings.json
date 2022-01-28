@@ -100,5 +100,15 @@
         "editor.wordBasedSuggestions": false
     },
     "dart.debugExternalPackageLibraries": false,
-    "dart.debugSdkLibraries": false
+    "dart.debugSdkLibraries": false,
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]"
+    ],
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)"
 }
