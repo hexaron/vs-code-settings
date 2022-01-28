@@ -8,20 +8,6 @@
  *
  *************************/
 {
-    "[dart]": {
-        "editor.formatOnSave": true,
-        "editor.formatOnType": true,
-        "editor.rulers": [
-            80
-        ],
-        "editor.selectionHighlight": false,
-        "editor.suggest.snippetsPreventQuickSuggestions": false,
-        "editor.suggestSelection": "first",
-        "editor.tabCompletion": "onlySnippets",
-        "editor.wordBasedSuggestions": false
-    },
-    "dart.debugExternalPackageLibraries": false,
-    "dart.debugSdkLibraries": false,
     /************
      * Self added
      ************/
@@ -100,5 +86,19 @@
     },
     "material-icon-theme.files.associations": {
         ".gitkeep": "template"
-    }
+    },
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "dart.debugExternalPackageLibraries": false,
+    "dart.debugSdkLibraries": false
 }
