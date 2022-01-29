@@ -37,6 +37,10 @@
     // Dont restore terminal sessions
     "terminal.integrated.persistentSessionReviveProcess": "never",
     "terminal.integrated.enablePersistentSessions": false,
+    "[html]": {
+        "editor.suggest.insertMode": "replace",
+        "editor.tabSize": 2
+    },
     /*******
      * Theme
      *******/
