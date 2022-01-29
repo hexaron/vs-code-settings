@@ -37,10 +37,6 @@
     // Dont restore terminal sessions
     "terminal.integrated.persistentSessionReviveProcess": "never",
     "terminal.integrated.enablePersistentSessions": false,
-	// Allow the C snippets in header files
-    "files.associations": {
-        "*.h": "c"
-    },
     /*******
      * Theme
      *******/
@@ -87,6 +83,9 @@
     "material-icon-theme.files.associations": {
         ".gitkeep": "template"
     },
+    /**************
+     * Editor added
+     **************/
     "[dart]": {
         "editor.formatOnSave": true,
         "editor.formatOnType": true,
@@ -101,6 +100,9 @@
     },
     "dart.debugExternalPackageLibraries": false,
     "dart.debugSdkLibraries": false,
+    "files.associations": {
+        "*.h": "c"
+    },
     "todo-tree.general.tags": [
         "BUG",
         "HACK",
