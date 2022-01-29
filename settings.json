@@ -101,7 +101,8 @@
     "dart.debugExternalPackageLibraries": false,
     "dart.debugSdkLibraries": false,
     "files.associations": {
-        "*.h": "c"
+        "*.h": "c",
+        "*.heex": "html"
     },
     "todo-tree.general.tags": [
         "BUG",
