@@ -3,7 +3,7 @@
 		"prefix": "aaaTest",
 		"body": [
 			"test(",
-			"  'Should $1',",
+			"  'should $1',",
 			"  () async {",
 			"    // Arrange",
 			"    $2",

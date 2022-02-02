@@ -4,7 +4,7 @@
 		"body": [
 			"def test_$1(self):",
 			"    $BLOCK_COMMENT_START",
-			"    Should $2",
+			"    should $2",
 			"    $BLOCK_COMMENT_END",
 			"    ",
 			"    # Arrange",
