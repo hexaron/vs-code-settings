@@ -4,15 +4,15 @@
 		"body": [
 			"def test_$1(self):",
 			"    $BLOCK_COMMENT_START",
-			"    should $2",
+			"    should ${2:do .. when ..}",
 			"    $BLOCK_COMMENT_END",
 			"    ",
 			"    # Arrange",
-			"    $4",
+			"    $3",
 			"    # Act",
-			"    ",
+			"    $4",
 			"    # Assert",
-			"    "
+			"    $0"
 		]
 	}
 }
