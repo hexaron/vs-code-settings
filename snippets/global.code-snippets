@@ -1,6 +1,6 @@
 {
 	"TODO entry": {
 		"prefix": "todo",
-		"body": "$LINE_COMMENT TODO($CURRENT_DATE $CURRENT_MONTH_NAME_SHORT): ${0:Message}"
+		"body": "$LINE_COMMENT TODO ($CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE): ${0:Message}"
 	}
 }
