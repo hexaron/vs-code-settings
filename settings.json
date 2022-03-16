@@ -41,6 +41,14 @@
         "editor.suggest.insertMode": "replace",
         "editor.tabSize": 2
     },
+    "[latex]": {
+        "editor.formatOnPaste": false,
+        "editor.suggestSelection": "recentlyUsedByPrefix",
+        "editor.minimap.enabled": false,
+        "editor.wordWrap": "on"
+    },
+    // Dracula theme
+    // "latex-workshop.view.pdf.invert": 0.87,
     /*******
      * Theme
      *******/
@@ -117,5 +125,7 @@
         "[ ]",
         "[x]"
     ],
-    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)"
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click"
 }
