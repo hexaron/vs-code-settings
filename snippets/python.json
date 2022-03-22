@@ -22,5 +22,14 @@
 			"    def __init__(self$2):",
 			"        $0"
 		]
+	},
+	"Unittest base": {
+		"prefix": "unittest",
+		"body": [
+			"import unittest",
+			"",
+			"class $1Test(unittest.TestCase):",
+			"    $0"
+		]
 	}
 }
