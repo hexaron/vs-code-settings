@@ -14,5 +14,21 @@
 			"  },",
 			");"
 		]
+	},
+	"for i loop with integer i": {
+		"prefix": "fori",
+		"body": [
+			"for (int i = 0; i < ${1:upper}; i++) {",
+			"  $0",
+			"}"
+		]
+	},
+	"for j loop with integer j": {
+		"prefix": "forj",
+		"body": [
+			"for (int j = 0; j < ${1:upper}; j++) {",
+			"  $0",
+			"}"
+		]
 	}
 }
