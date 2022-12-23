@@ -18,7 +18,11 @@
     ],
     "editor.acceptSuggestionOnEnter": "off",
     "cSpell.userWords": [
+        "cyclicity",
+        "deque",
+        "nilpotent",
         "pacman",
+        "permanences",
         "sublist",
         "summands",
         "surjective",
@@ -53,7 +57,8 @@
         "editor.wordWrap": "on"
     },
     "[rust]": {
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+        "editor.rulers": [100]
     },
     "latex-workshop.latex.tools": [
         {
@@ -231,5 +236,5 @@
         "{",
         "$"
     ],
-    "diffEditor.renderSideBySide": false
+    "cSpell.language": "en"
 }
