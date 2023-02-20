@@ -48,7 +48,8 @@
     "terminal.integrated.enablePersistentSessions": false,
     "[html]": {
         "editor.suggest.insertMode": "replace",
-        "editor.tabSize": 2
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "vscode.html-language-features"
     },
     "[latex]": {
         "editor.formatOnPaste": false,
@@ -236,5 +237,6 @@
         "{",
         "$"
     ],
-    "cSpell.language": "en"
+    "cSpell.language": "en",
+    "html.format.wrapLineLength": 0
 }
