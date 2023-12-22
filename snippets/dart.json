@@ -30,5 +30,13 @@
 			"  $0",
 			"}"
 		]
+	},
+	"for in loop with variable": {
+		"prefix": "forin",
+		"body": [
+			"for (${1:item} in ${2:list}) {",
+			"  $0",
+			"}"
+		]
 	}
 }

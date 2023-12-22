@@ -3,5 +3,13 @@
     {
         "key": "ctrl+alt+s",
         "command": "workbench.action.files.saveFiles"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "-workbench.action.showAllSymbols"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "extension.transpose"
     }
 ]

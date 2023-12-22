@@ -17,5 +17,13 @@
 			"\t\\label{fig:$2}",
 			"\\end{figure}"
 		]
+	},
+	"Display math environment": {
+		"prefix": "display",
+		"body": [
+			"\\[",
+			"\t${0:${TM_SELECTED_TEXT}}",
+			"\\]"
+		]
 	}
 }
